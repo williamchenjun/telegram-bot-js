@@ -20,7 +20,10 @@ import { Filters } from "constants.js";
 import express from "express";
 
 const server = new express();
-const app = new App().token(API_KEY).build(); // It is recommended to store the API_KEY as an environment variable.
+// It is recommended to store the API_KEY as an environment variable.
+// To do so, install dotenv: npm i dotenv; then, create a .env file and store your environment variables inside of it.
+// Note: If you plan to use git, create a .gitignore file and add .env so that your API_KEY and AUTH_TOKEN are secure and stay private!
+const app = new App().token(API_KEY).build(); 
 
 async function main(response){
   try {
