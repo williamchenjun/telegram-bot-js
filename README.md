@@ -1,5 +1,5 @@
 # 🤖 Telegram Bot API for JavaScript (NodeJS)
-This module is very easy to use and to integrate to your JavaScript project. It is very straightforward to use and already has all the main classes and methods available to use. This module is still under development. It needs to be optimised and fully documented, but it is already functional. ([List of currently available methods](https://github.com/williamchenjun/telegram-bot-js/blob/main/README_Constants.md)).
+This module is very easy to use and to integrate to your JavaScript project. It is very straightforward to use and already has all the main classes and methods available to use. This module is still under development. It needs to be optimised and fully documented, but it is already functional. ([List of currently available classes](https://github.com/williamchenjun/telegram-bot-js/blob/main/README_Constants.md)).
 
 **Note**: This module only supports webhooks. Thus, you will need a custom domain in order to use this module. You can easily set up one via `ngrok` or you can use other hosting services, such as Heroku.
 
